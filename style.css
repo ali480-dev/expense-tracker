@@ -1,0 +1,100 @@
+
+/* Page */
+
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f7fb;
+}
+
+
+/* Heading */
+
+.h1 {
+    color: #1e3a5f;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* Inputs */
+
+#expenseInput,
+#amount {
+    width: 250px;
+    padding: 12px;
+    margin-bottom: 12px;
+
+    border: 1px solid #b8c2cc;
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+
+/* Input focus */
+
+#expenseInput:focus,
+#amount:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+
+/* Add Expense Button */
+
+.button {
+    padding: 12px 25px;
+
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* Button hover */
+
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* Expense List */
+
+#expenselist {
+    width: 400px;
+    margin: 30px auto;
+    padding: 0;
+}
+
+
+/* Each expense */
+
+#expenselist li {
+    list-style: none;
+
+    background-color: white;
+
+    margin-bottom: 10px;
+    padding: 12px;
+
+    border-radius: 6px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Total */
+
+.p {
+    color: #166534;
+    font-size: 22px;
+    font-weight: bold;
+}
